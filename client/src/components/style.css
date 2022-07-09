@@ -1,0 +1,119 @@
+body {
+  background-color: #7cc6fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.homeHeader {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 50px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: cornflowerblue;
+  padding: 10px 15px;
+  margin: 0 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+.addQuestionnaire-section {
+  display: flex;
+  gap: 80px;
+}
+
+table {
+  background-color: #2C3845;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+  color: white;
+  width: 40vw;
+  text-align: center;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+}
+
+td, th {
+  padding: 10px;
+  box-shadow: 0 0 2px #000000;
+}
+
+tbody {
+  font-size: large;
+}
+
+tr:nth-child(even) {
+  background-color: #566677;
+}
+
+.detailsBtn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  background-color: #e7544a;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.addBtn {
+  background-color: #0c80ec;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin-left: auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.form {
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.226);
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-height: min-content;
+}
+
+.addQuestionnaire-form {
+  max-height: 200px;
+}
+
+input[type=text], input[type=number] {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.radio-container {
+  margin: 10px 0;
+}
