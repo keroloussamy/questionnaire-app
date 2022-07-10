@@ -3,8 +3,8 @@
 > Questionnaire app for creating questionnaires and quizzes.
 
 
-<img src="./app-pic1.png">
-<img src="./app-pic2.png">
+<img src="./app-pic1.png" width='100%'>
+<img src="./app-pic2.png" width='100%'>
 
 ## Built With
 
