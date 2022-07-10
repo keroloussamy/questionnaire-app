@@ -63,7 +63,7 @@ const AddQuestions = () => {
         </tbody>
       </table>
       </div>
-      <div className="form">
+      <div className="form addQuestion-form">
         <h2>Add New Question</h2>
         <form onSubmit={handleSubmit}>
           <div>

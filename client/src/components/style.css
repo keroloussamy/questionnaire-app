@@ -104,6 +104,10 @@ tr:nth-child(even) {
   max-height: 200px;
 }
 
+.addQuestion-form {
+  max-height: 350px;
+}
+
 input[type=text], input[type=number] {
   width: 100%;
   padding: 12px 10px;

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useEditQuestionMutation, useGetQuestionQuery } from '../../api/apiSlice';
 import Loader from '../loader/Loader';
@@ -11,6 +12,14 @@ const EditQuestions = () => {
   const [questionInput, setQuestionInput] = useState();
   const [answerInput, setAnswerInput] = useState();
   const [valueInput, setValueInput] = useState();
+
+  useEffect(() => {
+    if (data) {
+      setQuestionInput(data.question);
+      setAnswerInput(data.answer);
+      setValueInput(data.value);
+    }
+  }, [data])
 
   const handleQuestionInputOnChange = (e) => setQuestionInput(e.target.value);
   const handleAnswerInputOnChange = (e) => setAnswerInput(e.target.value);
